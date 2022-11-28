@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div class="firstWrapper">
+    <div class="wrapper">
+    <h1>Blackjack <span id="re" onclick="reStart()">&#128640;</span></h1>
+    <p id="mesg">Lets Start the game</p>
+    <p class="cards">Cards:<span id="cards"></span></p>
+    <p class="cards">Sum:<span id="sum"></span></p>
+    <button class="btn" id="1" onclick="Start()"> Start the Game</button>
+    <button class="btn" id="2" onclick="Draw()">Draw a card</button>
+    
+    <div id="Getname">
+    <input id="inputName" type=text placeholder="Enter your name">
+    <button class="btn" id="3" onclick="outputName()">Submit</button> 
+    </div>
+</div>    
+    
+        <script src="script.js"></script>
+    </body>
+</html>

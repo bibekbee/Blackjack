@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+  margin-top: 200px;  
+  background-color:#0E6655; 
+    
+}
+.firstWrapper{  
+  display:flex;
+  justify-content: center;  
+
+
+}
+
+.wrapper{
+    text-align: center;
+    color:#fff;
+    border: 5px solid #fff;
+    padding: 40px 150px 60px 150px;
+    max-width: 500;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.wrapper h1{
+  color:#F39C12;
+}
+
+#Getname{
+  margin-top: 20px;
+  color:#F39C12;
+  width: 330px;
+  height: 32px;
+}
+
+#re {
+  cursor:pointer;
+
+}
+
+#mesg{
+    font-family: Raleway, sans-serif;
+    background: #17202A;
+    border-radius: 10px;
+    padding:5px 10px;
+}
+
+.cards{
+    font-size: 25px;
+    color: #FDEBD0;
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+}
+
+.wrapper p:nth-child(4){
+    margin-bottom: 30px;
+}
+
+.wrapper .mystyle{
+    transform:scale(0.9,0.9);
+}
+
+.btn {
+    font-family: Raleway, sans-serif;
+    background-color: #1C2833;
+    color:#F39C12;
+}
+
+.wrapper input{
+    background-color: #F39C12;
+    color: #000;
+}
+
+#Getname{
+    font-size: 20px;
+    weight: bold;
+    font-family: Raleway, sans-serif;
+}
