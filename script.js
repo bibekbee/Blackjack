@@ -7,6 +7,7 @@ const Id2 = document.getElementById("2");
 const Id3 = document.getElementById("3");
 const wins = document.getElementById("win");
 const over = document.getElementById("over");
+const zoop = document.getElementById("zoop");
 let win = false; //defines if you win or loss
 let played = false; //defines if you've played or not 
 let entered = false; //defines if you've entered your name or note 
@@ -119,6 +120,7 @@ function outputName() {
 // Rocket Restarts the game
 function reStart() {
   //reassign all variables other than money and Name
+   zoop.play();
 	 entered = true;
    sum = 0;
    array = [];
