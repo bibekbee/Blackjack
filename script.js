@@ -130,14 +130,12 @@ function reStart() {
    Sum.innerHTML = '';
 
    if (played == true){
-    console.log(win);
    if(win == true){
    money += 5;
    Getname.innerHTML = `<p> ${getName}: $${money} </p>`;
    }else if(win == false) {
    money -= 5;
    Getname.innerHTML = `<p> ${getName}: $${money} </p>`;
-   console.log(money);
    }
   }
   win=false;
