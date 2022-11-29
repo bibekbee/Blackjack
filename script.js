@@ -5,6 +5,8 @@ const Getname = document.getElementById("Getname");
 const Id1 = document.getElementById("1");
 const Id2 = document.getElementById("2");
 const Id3 = document.getElementById("3");
+const wins = document.getElementById("win");
+const over = document.getElementById("over");
 let win = false; //defines if you win or loss
 let played = false; //defines if you've played or not 
 let entered = false; //defines if you've entered your name or note 
@@ -50,10 +52,12 @@ function Start() {
   // If the number at the start of the game was less than 21 we draw cards
   if(sum === 21){
   Mesg.innerHTML = "Hurray, BLACKJACK You Won &#129297!!"
+  wins.play();
   win = true; 
   played = true; 
   }else if (sum > 21){ 
   Mesg.innerHTML = "Sorry, You Lost &#128557" 
+  over.play();
   win = false;
   }else{
   Mesg.innerHTML = "Okay, you've still got this"
@@ -85,10 +89,12 @@ function Draw() {
   
   if(sum >21){
   Mesg.innerHTML = "Sorry, You Lost &#128557"
+  over.play();
   played = true; 
   min = false;
   }else if(sum === 21){
    Mesg.innerHTML = "Hurray, BLACKJACK You Won &#129297!!"
+   wins.play();
    win = true;
    played = true; 
   }
